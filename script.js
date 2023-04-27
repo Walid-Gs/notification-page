@@ -5,6 +5,7 @@ const notifications = document.querySelectorAll(".notification");
 const notificationsContainer = document.querySelector(
   ".notifications-container"
 );
+const notificationNumber = document.querySelector(".notif-number");
 
 // an event handler omn the mark as red
 markRead.addEventListener("click", function (e) {
@@ -16,6 +17,7 @@ markRead.addEventListener("click", function (e) {
       notif.querySelector(".notif-button").classList.remove("notif-button");
     }
   });
+  notificationNumber.textContent = 0;
 });
 
 // anevent to handel clicking on the notification:
@@ -27,5 +29,6 @@ notificationsContainer.addEventListener("click", function (e) {
       .closest(".notification")
       .querySelector(".notif-button")
       .classList.remove("notif-button");
+    notificationNumber.textContent--;
   }
 });
