@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="global-container">
+      <div class="headings">
+        <h1>Notifications <span class="notif-number">3</span></h1>
+        <p class="mark-read">Mark all as read</p>
+      </div>
+      <div class="notifications-container">
+        <div class="notification not-read">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-mark-webber.webp"
+            alt="mark profile picture"
+          />
+          <div class="description">
+            <p>
+              <a class="profile-name" href="#profile">Mark Webber</a> reacted to
+              your recent post
+              <a class="external-link" href="#"> My first tournament today!</a>
+              <span class="cirle notif-button"></span>
+            </p>
+            <p class="date">1m ago</p>
+          </div>
+        </div>
+        <div class="notification not-read">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-angela-gray.webp"
+            alt="angela profile picture"
+          />
+          <div class="description">
+            <p>
+              <a class="profile-name" href="#profile">Angela Gray</a> followed
+              you
+              <a class="external-link" href="#"></a>
+              <span class="cirle notif-button"></span>
+            </p>
+            <p class="date">5m ago</p>
+          </div>
+        </div>
+        <div class="notification notification-group not-read">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-jacob-thompson.webp"
+            alt="mark profile picture"
+          />
+          <div class="description">
+            <p>
+              <a class="profile-name" href="#profile">Jacob Thompson</a> has
+              joined your group
+              <a class="external-link" href="#"> Chess Club</a>
+              <span class="cirle notif-button"></span>
+            </p>
+            <p class="date">1 day ago</p>
+          </div>
+        </div>
+        <div class="notification notification-message">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-rizky-hasanuddin.webp"
+            alt="mark profile picture"
+          />
+          <div class="description">
+            <p class="action">
+              <a class="profile-name" href="#profile">Rizky Hassanuddin</a> sent
+              you a private message
+              <a class="external-link" href="#"></a>
+              <span class="cirle"></span>
+            </p>
+            <p class="date">5 days ago</p>
+            <p class="message">
+              Hello, thanks for settings up the Chess Club. I've been a member
+              for a few weeks now and i'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+        <div class="notification notification-comment">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-kimberly-smith.webp"
+            alt="mark profile picture"
+          />
+          <div class="description">
+            <p>
+              <a class="profile-name" href="#profile">Kimberly Smith</a>
+              commented on your picture
+              <a class="external-link" href="#"></a>
+              <span class="cirle"></span>
+            </p>
+            <p class="date">1 week ago</p>
+          </div>
+          <img
+            class="commented-image"
+            src="/assets/images/image-chess.webp"
+            alt=""
+          />
+        </div>
+        <div class="notification">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-nathan-peterson.webp"
+            alt="mark profile picture"
+          />
+          <div class="description">
+            <p>
+              <a class="profile-name" href="#profile">Nathan Peterson</a>
+              reacted to your recent post
+              <a class="external-link" href="#"
+                >5 end-game strategies to increase your win rate</a
+              >
+              <span class="cirle"></span>
+            </p>
+            <p class="date">2 week ago</p>
+          </div>
+        </div>
+        <div class="notification notification-group">
+          <img
+            class="notif-profile-picture"
+            src="/assets/images/avatar-anna-kim.webp"
+            alt="mark profile picture"
+          />
+          <div class="description">
+            <p>
+              <a class="profile-name" href="#profile">Anna Kim</a>
+              lef the group
+              <a class="external-link" href="#">Chess Club</a>
+              <span class="cirle"></span>
+            </p>
+            <p class="date">2 week ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
